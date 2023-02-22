@@ -1,5 +1,82 @@
+/* RESET */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* REGOLE GENERALI */
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container{
+  width: 80%;
+  min-width: 400px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/* /REGOLE GENERALI */
+
+
+/* HEADER */
+header{
+  height: 80px;
+  background-color: #FA6903;
+}
+
+header .container{
+  height: 100%;
+}
+
+header .d-flex{
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .categories,
+header .account{
+  width: 20%;
+}
+
+header .logo{
+  width: 60%;
+}
+
+header .logo img{
+  width: 200px;
+}
+
+header li,
+header a{
+  display: inline-block;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+header a:hover{
+  color: #E7E6E5;
+  text-transform: uppercase;
+}
+
+/* /HEADER */
