@@ -29,7 +29,7 @@ img{
 }
 
 .container{
-  width: 80%;
+  width: 85%;
   min-width: 400px;
   max-width: 1200px;
   margin: auto;
@@ -37,8 +37,25 @@ img{
 
 .d-flex{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.t-center{
+  text-align: center;
+}
+
+/*.m-15{
+  margin: 10px
+}*/
+
+
+header a:hover,
+footer a:hover{
+  color: #E7E6E5;
+  text-transform: uppercase;
+  font-size: larger;
+}
 /* /REGOLE GENERALI */
 
 
@@ -52,11 +69,6 @@ header .container{
   height: 100%;
 }
 
-header .d-flex{
-  justify-content: space-between;
-  align-items: center;
-}
-
 header .categories,
 header .account{
   width: 20%;
@@ -64,21 +76,19 @@ header .account{
 
 header .logo{
   width: 60%;
-  text-align: center;
 }
 
 header .logo img{
   width: 200px;
 }
 
+header .account{
+  text-align: right;
+}
+
 header a{
   color: white;
   margin: 0 5px;
-}
-
-header a:hover{
-  color: #E7E6E5;
-  text-transform: uppercase;
 }
 /* /HEADER */
 
@@ -86,6 +96,7 @@ header a:hover{
 /* MAIN */
 main{
   padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 main a{
@@ -170,3 +181,24 @@ main span{
   /* /CARD STYLE */
 
 /* /MAIN */
+
+
+/* FOOTER */
+footer{
+  background-color: #1A1A1A;
+}
+
+footer .container{ 
+  height: 100px;
+  color: white;
+}
+
+footer a{
+  color: white;
+  margin: 0 5px 0 0;
+}
+
+footer .social{
+  text-align: right;
+}
+/* /FOOTER */
