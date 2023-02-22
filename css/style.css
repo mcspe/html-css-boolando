@@ -45,9 +45,9 @@ img{
   text-align: center;
 }
 
-/*.m-15{
+.m-15{
   margin: 10px
-}*/
+}
 
 
 header a:hover,
@@ -71,11 +71,11 @@ header .container{
 
 header .categories,
 header .account{
-  width: 20%;
+  width: 25%;
 }
 
 header .logo{
-  width: 60%;
+  width: 50%;
 }
 
 header .logo img{
@@ -178,6 +178,10 @@ main span{
   main .card .full-price{
     text-decoration: line-through;
   }
+
+  main .card:nth-child(5) .sustainable{
+    display: none;
+  }
   /* /CARD STYLE */
 
 /* /MAIN */
@@ -195,10 +199,28 @@ footer .container{
 
 footer a{
   color: white;
-  margin: 0 5px 0 0;
+  margin: 10px 10px 0 0;
+}
+
+footer li:last-child a{
+  margin: 10px 0 0 0;
+}
+
+footer .info{
+  width: 60%;
+}
+
+footer .info a{
+  font-size: 14px;
 }
 
 footer .social{
+  width: 40%;
   text-align: right;
+}
+
+footer .social ul{
+  justify-content: right;
+  flex-wrap: wrap;
 }
 /* /FOOTER */
